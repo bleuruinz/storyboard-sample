@@ -22,9 +22,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ba6-eN-r61">
-                                <rect key="frame" x="164" y="531" width="46" height="30"/>
+                                <rect key="frame" x="161" y="531" width="52" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="다음화면"/>
                                 <connections>
                                     <segue destination="uYk-Cz-fee" kind="show" id="KiX-fh-29f"/>
                                 </connections>
@@ -32,7 +32,13 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.53300741052017764" blue="0.75548085016284916" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Main" id="q0T-ql-F3d"/>
+                    <navigationItem key="navigationItem" title="Main" id="q0T-ql-F3d">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="qgp-kp-a1E">
+                            <connections>
+                                <action selector="openAD:" destination="BYZ-38-t0r" id="Z6P-Xd-K0b"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -76,7 +82,7 @@
             </objects>
             <point key="canvasLocation" x="1197.5999999999999" y="-29.23538230884558"/>
         </scene>
-        <!--Title-->
+        <!--Second-->
         <scene sceneID="E9z-QE-AMW">
             <objects>
                 <viewController id="C0M-XI-g12" customClass="SecondViewController" customModule="StoryboardSample" customModuleProvider="target" sceneMemberID="viewController">
@@ -89,13 +95,45 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.50651153054610498" green="1" blue="0.54468591939004551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Title" id="g21-XG-Bio"/>
+                    <navigationItem key="navigationItem" title="Second" id="g21-XG-Bio"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xg6-rN-CEZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2060" y="-293"/>
         </scene>
         <!--Title-->
+        <scene sceneID="WiE-td-A4s">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="s00-9c-bfi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController storyboardIdentifier="grayscene" id="6R8-0k-ncY" customClass="GrayViewController" customModule="StoryboardSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bOS-I1-Pmx"/>
+                        <viewControllerLayoutGuide type="bottom" id="cqu-XR-cxA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Seq-Ys-Yoy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cSR-JY-BbN">
+                                <rect key="frame" x="117" y="283" width="140" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <state key="normal" title="닫기">
+                                    <color key="titleColor" red="0.50651153049999997" green="1" blue="0.5446859194" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="close:" destination="6R8-0k-ncY" eventType="touchUpInside" id="GPx-PA-g6H"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Title" id="GCC-Lf-Snq"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1197.5999999999999" y="-788.45577211394311"/>
+        </scene>
+        <!--Thrid-->
         <scene sceneID="vQb-Od-bQR">
             <objects>
                 <viewController id="W8l-PU-Zdf" customClass="ThirdViewController" customModule="StoryboardSample" customModuleProvider="target" sceneMemberID="viewController">
@@ -108,7 +146,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.4286142342332947" green="0.93472141617795679" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Title" id="iPT-tD-rlf"/>
+                    <navigationItem key="navigationItem" title="Thrid" id="iPT-tD-rlf"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e0G-4k-xLC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

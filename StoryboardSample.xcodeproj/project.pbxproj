@@ -15,6 +15,7 @@
 		E65B58E71F3D8F4600026525 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65B58E61F3D8F4600026525 /* FirstViewController.swift */; };
 		E65B58E91F3D933200026525 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65B58E81F3D933200026525 /* SecondViewController.swift */; };
 		E65B58EB1F3D93B900026525 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65B58EA1F3D93B900026525 /* ThirdViewController.swift */; };
+		E65B58ED1F3D9D9A00026525 /* GrayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65B58EC1F3D9D9A00026525 /* GrayViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		E65B58E61F3D8F4600026525 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		E65B58E81F3D933200026525 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		E65B58EA1F3D93B900026525 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		E65B58EC1F3D9D9A00026525 /* GrayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrayViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				E65B58E61F3D8F4600026525 /* FirstViewController.swift */,
 				E65B58E81F3D933200026525 /* SecondViewController.swift */,
 				E65B58EA1F3D93B900026525 /* ThirdViewController.swift */,
+				E65B58EC1F3D9D9A00026525 /* GrayViewController.swift */,
 			);
 			path = StoryboardSample;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 				E65B58E91F3D933200026525 /* SecondViewController.swift in Sources */,
 				E65B58E71F3D8F4600026525 /* FirstViewController.swift in Sources */,
 				E65B58EB1F3D93B900026525 /* ThirdViewController.swift in Sources */,
+				E65B58ED1F3D9D9A00026525 /* GrayViewController.swift in Sources */,
 				E65B58D71F3D84FD00026525 /* ViewController.swift in Sources */,
 				E65B58D51F3D84FD00026525 /* AppDelegate.swift in Sources */,
 			);
