@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  SecondViewController.swift
 //  StoryboardSample
 //
 //  Created by ktds 13 on 2017. 8. 11..
@@ -8,18 +8,8 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class SecondViewController: UIViewController {
 
-    @IBOutlet weak var mySwitch: UISwitch!
-    @IBAction func nestScene(_ sender: Any) {
-        
-        if mySwitch.isOn {
-            self.performSegue(withIdentifier: "second", sender: self)
-        } else {
-            self.performSegue(withIdentifier: "third", sender: self)
-        }
-        
-    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
